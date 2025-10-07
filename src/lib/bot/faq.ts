@@ -21,7 +21,7 @@ export const faq = [
   },
   {
     q: /(who|about).*(sri|you)|journey|story/i,
-    a: "I’m Sri — MS in Robotics & Autonomous Systems (AI) at ASU (May 2026). I work across AI/ML, Computer Vision, Genomics, and all things DATA. Read the long version at /about.",
+    a: "I'm Sri — MS in Robotics & Autonomous Systems (AI) at ASU (May 2026). I work across AI/ML, Computer Vision, Genomics, and all things DATA. Read the long version at /about.",
   },
 ];
 

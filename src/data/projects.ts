@@ -36,7 +36,7 @@ export const projectSections: ProjectSection[] = [
   oneLiner: "PyTorch → ONNX → INT8 quantization; edge-ready segmentation.",
   domain: "CV",
   metrics: [
-    { label: "Latency", value: "≈ −40%", direction: "down" },
+    { label: "Latency", value: "≈ -40%", direction: "down" },
     { label: "Acc Δ",  value: "≤ 2%", direction: "neutral" },
     { label: "Edge",   value: "Jetson", direction: "up" },
   ],
@@ -63,11 +63,11 @@ export const projectSections: ProjectSection[] = [
         domain: "CV",
         metrics: [
           { label: "PSNR", value: "+30%", direction: "up" },
-          { label: "Scale", value: "×2/×4", direction: "up" },
+          { label: "Scale", value: "x2/x4", direction: "up" },
         ],
         problem: "Low-res scans limited diagnostic and analytic utility.",
         approach: [
-          "Trained ESRGAN for ×2/×4 upscaling with curated augmentations",
+          "Trained ESRGAN for x2/x4 upscaling with curated augmentations",
           "Balanced perceptual/adv losses to preserve edges and texture",
         ],
         impact: [
@@ -77,7 +77,7 @@ export const projectSections: ProjectSection[] = [
         stack: ["Python", "PyTorch", "ESRGAN", "OpenCV"],
         links: { github: "https://github.com/Priyakarna13" },
         copyBullet:
-          "Trained ESRGAN super-resolution (×2/×4), improving PSNR by ~30% for medical/satellite imagery.",
+          "Trained ESRGAN super-resolution (x2/x4), improving PSNR by ~30% for medical/satellite imagery.",
       },
       {
         slug: "synthetic-data-diffusion",
@@ -231,7 +231,7 @@ export const projectSections: ProjectSection[] = [
         title: "Urban Housing Demand Forecasting",
         oneLiner: "Time-series pipeline on 250K+ listings for planning insights.",
         domain: "Data",
-        metrics: [{ label: "Mismatch", value: "−15%", direction: "down" }],
+        metrics: [{ label: "Mismatch", value: "-15%", direction: "down" }],
         problem: "Cities struggled with vacancy/availability mismatch.",
         approach: [
           "Prophet + decomposition on large multi-city dataset",
@@ -272,7 +272,7 @@ export const projectSections: ProjectSection[] = [
         domain: "Data",
         metrics: [
           { label: "Uptime", value: "99.95%", direction: "up" },
-          { label: "Manual Checks", value: "−40%", direction: "down" },
+          { label: "Manual Checks", value: "-40%", direction: "down" },
         ],
         problem: "Clinicians lacked unified, real-time patient status.",
         approach: [

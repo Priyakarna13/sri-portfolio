@@ -14,7 +14,7 @@ export default function AboutPage() {
 
       <section className="card p-6 space-y-4 leading-relaxed">
         <p>
-          Hi, I'm Sri! If you&apos;re here, you probably want to know more about me. I did my bachelors in AI, worked at ANZ with
+          Hi, I&apos;m Sri! If you&apos;re here, you probably want to know more about me. I did my bachelors in AI, worked at ANZ with
           great colleagues, and had a settled life. But I wanted to grow beyond my comfort zone. So I quit and came to the US —
           the place where big dreams meet real life. It&apos;s been a ride: stress and uncertainty, yes, but also joy, friends who feel
           like family, and constant learning.

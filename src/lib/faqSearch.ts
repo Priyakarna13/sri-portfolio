@@ -23,3 +23,4 @@ export function searchFAQ(items: QA[], query: string, k = 3) {
 
   return scored;
 }
+

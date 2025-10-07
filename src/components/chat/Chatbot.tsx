@@ -6,7 +6,7 @@ type Msg = { role: "user" | "bot"; text: string };
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
   const [msgs, setMsgs] = useState<Msg[]>([
-    { role: "bot", text: "Hey! I'm Sri (chat). Ask about my projects, resume, or how to contact me." },
+    { role: "bot", text: "Hey! I am Sri. Ask about my work, projects, resume, or how to contact me." },
   ]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
@@ -29,10 +29,10 @@ export default function Chatbot() {
         body: JSON.stringify({ message: q }),
       });
       if (r.status === 429) {
-        setMsgs((m) => [...m, { role: "bot", text: "You&apos;ve hit the daily limit. Please try again later 🙏" }]);
+        setMsgs((m) => [...m, { role: "bot", text: "You have hit the daily limit. Please try again later 🙏" }]);
       } else {
         const data = await r.json();
-        setMsgs((m) => [...m, { role: "bot", text: data.reply ?? "Hmm, I didn't get that." }]);
+        setMsgs((m) => [...m, { role: "bot", text: data.reply ?? "Hmm, I did not get that." }]);
       }
     } catch {
       setMsgs((m) => [...m, { role: "bot", text: "Network error. Please try again." }]);

@@ -6,11 +6,10 @@ export default function ContactPage() {
     <section className="min-h-[80vh] flex flex-col items-center justify-center text-center space-y-8 px-40 py-20">
       <div className="space-y-3">
         <h1 className="text-4xl font-display">Let&apos;s Connect ☕</h1>
-        <p className="text-2xl opacity-85 max-w-lg mx-auto leading-relaxed">
+        <p className="text-2xl text-center opacity-85 leading-relaxed">
           So you made it this far — nice! <br /> I&apos;d love to hear from you.<br />
-          <p className="text-center text-gray-300 mt-2 text-lg whitespace-nowrap overflow-x-auto no-scrollbar">
-  Whether it&apos;s about an opportunity, collaboration, or just a geeky AI chat — reach out!
-</p>
+          Whether it&apos;s about an opportunity, collaboration, or just a geeky chat — Reach out!
+
 
         </p>
       </div>

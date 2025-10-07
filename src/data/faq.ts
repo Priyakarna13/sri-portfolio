@@ -3,21 +3,57 @@ export type QA = { q: string; a: string; tags?: string[] };
 export const faq: QA[] = [
   {
     q: "Who are you?",
-    a: "Hi, I'm Sri — MS student in Robotics and Autonomous Systems (AI) at Arizona State University. I build intelligent systems at the intersection of computer vision, deep learning, and data engineering.",
+    a: "Hi, I am Sri — MS student in Robotics and Autonomous Systems (AI) at Arizona State University. I build intelligent systems at the intersection of computer vision, deep learning, and data engineering.",
     tags: ["about", "bio", "intro"],
   },
   {
     q: "Where are you studying?",
-    a: "I&apos;m pursuing my Master&apos;s in Robotics and Autonomous Systems — Artificial Intelligence track at Arizona State University (graduating May 2026).",
+    a: "I am pursuing my Master's in Robotics and Autonomous Systems — Artificial Intelligence track at Arizona State University (graduating May 2026).",
     tags: ["education", "university", "asu"],
   },
   {
     q: "What motivated you to study AI and robotics?",
-    a: "I&apos;ve always been fascinated by how machines learn and perceive the world. My journey began with computer vision and deep learning, and evolved into building end-to-end systems that bridge software, data, and real-world robotics.",
+    a: "I've always been fascinated by how machines learn and perceive the world. My journey began with computer vision and deep learning, and evolved into building end-to-end systems that bridge software, data, and real-world robotics.",
     tags: ["motivation", "ai", "robotics"],
   },
   {
-    q: "What&apos;s your philosophy on learning?",
+  q: "What is your work experience?",
+  a: "I have professional experience across both research and industry. Currently, I work as a Research Assistant at the Jiang Lab (Biodesign Center for Mechanisms of Evolution, ASU) and as an AI Specialist at the ASU Tech Hub. Previously, I was a full-time Data Analyst at ANZ Operations & Technology for nearly two years, where I specialized in automating reporting pipelines and driving data-based decisions.",
+  tags: ["experience", "career", "work", "jobs", "industry", "research"],
+},
+
+{
+  q: "Where have you worked before?",
+  a: "Before moving to the U.S., I worked at ANZ Operations & Technology as a Data Analyst for almost two years. There, I developed predictive models for Credit cards and Home Loan products, built ETL pipelines, automated dashboards, and optimized reporting workflows across business domains. At ASU, I’ve continued working part-time as a Research Assistant and AI Specialist, combining machine learning and automation for real-world problem solving.",
+  tags: ["work", "career", "anz", "asu", "experience"],
+},
+
+{
+  q: "What do you do as a Research Assistant?",
+  a: "At Jiang Lab (ASU Biodesign Center), I work on genomic mutation prediction using deep learning — training neural networks to learn protein sequence-function relationships from experimental datasets. My role involves building and optimizing models, data preprocessing, and analyzing mutation impact with PyTorch and statistical methods.",
+  tags: ["research", "assistant", "genomics", "deep learning", "asu"],
+},
+
+{
+  q: "What do you do as an AI Specialist?",
+  a: "At ASU Tech Hub, I design and deploy AI-driven automations for student support systems — such as chatbots that answer course, admission, and technical questions. My work focuses on building conversational models, integrating APIs, and improving accessibility through AI tools.",
+  tags: ["ai specialist", "asu", "automation", "chatbot", "nlp"],
+},
+
+{
+  q: "What skills have you learned from your work experience?",
+  a: "From my time at ANZ, I developed strong data engineering and analytics skills — SQL, ETL design, Power BI, predictive models and automation with Python. My Research Assistant role sharpened my PyTorch, deep learning, and genomics expertise. As an AI Specialist, I’ve focused on LangChain, OpenAI APIs, and deploying LLM-powered tools in real settings.",
+  tags: ["skills", "learning", "experience", "ai", "data", "ml"],
+},
+
+{
+  q: "What technologies do you use in your work?",
+  a: "Across my roles, I use Python, PyTorch, ONNX, TensorRT, OpenCV, LangChain, FastAPI, SQL, and cloud platforms like AWS and GCP. For dashboards and automation, I’ve also worked with Streamlit, Grafana, and Power BI.",
+  tags: ["technology", "stack", "tools", "work", "ai", "data"],
+},
+
+  {
+    q: "What's your philosophy on learning?",
     a: "Keep learning, keep evolving. The tech world changes fast — I see curiosity and adaptability as superpowers.",
     tags: ["learning", "philosophy", "mindset"],
   },
@@ -39,11 +75,11 @@ export const faq: QA[] = [
   },
   {
     q: "Tell me about your Credit Risk Analysis project.",
-    a: "It&apos;s a statistical ML pipeline in R using logistic regression, Random Forest, and XGBoost, with SMOTE handling, SHAP-based interpretability, and a dark-themed Shiny UI for predictions.",
+    a: "It's a statistical ML pipeline in R using logistic regression, Random Forest, and XGBoost, with SMOTE handling, SHAP-based interpretability, and a dark-themed Shiny UI for predictions.",
     tags: ["credit", "finance", "xgboost", "r", "ml"],
   },
   {
-    q: "What&apos;s your Urban Housing Forecasting project?",
+    q: "What's your Urban Housing Forecasting project?",
     a: "A time-series forecasting system for housing demand using Prophet, Streamlit dashboards, PostgreSQL, and Grafana for real-time monitoring and visualization.",
     tags: ["forecasting", "prophet", "grafana", "streamlit"],
   },
@@ -53,24 +89,24 @@ export const faq: QA[] = [
     tags: ["research", "genomics", "deep learning", "biology"],
   },
   {
-    q: "What&apos;s your most challenging project?",
+    q: "What's your most challenging project?",
     a: "The Jetson INT8 optimization pipeline — converting Mask2Former to ONNX, calibrating INT8 precision, and maintaining accuracy under edge hardware constraints. It taught me a lot about model optimization and deployment.",
     tags: ["onnx", "tensorrt", "optimization", "edge"],
   },
 
   {
-    q: "What&apos;s your technical stack?",
+    q: "What's your technical stack?",
     a: "Core skills: Python, PyTorch, ONNX, TensorRT, OpenCV, FastAPI, LangChain, SQL, Docker, AWS, GCP, and Next.js (TypeScript).",
     tags: ["stack", "skills", "tech"],
   },
   {
     q: "Are you comfortable with cloud platforms?",
-    a: "Yes — I&apos;ve deployed and optimized workloads on AWS, GCP, and Azure. I enjoy working with cloud-native ML pipelines and dashboards.",
+    a: "Yes — I've deployed and optimized workloads on AWS, GCP, and Azure. I enjoy working with cloud-native ML pipelines and dashboards.",
     tags: ["cloud", "aws", "gcp", "azure"],
   },
   {
     q: "Do you do full-stack or just ML?",
-    a: "I&apos;m an end-to-end engineer — from data pipelines to deployment. I design APIs, dashboards, and frontend UIs to make models actually usable.",
+    a: "I'm an end-to-end engineer — from data pipelines to deployment. I design APIs, dashboards, and frontend UIs to make models actually usable.",
     tags: ["fullstack", "deployment", "integration"],
   },
   {
@@ -80,7 +116,7 @@ export const faq: QA[] = [
   },
   {
     q: "Do you work with large models (LLMs)?",
-    a: "Yes — I&apos;ve built RAG pipelines using LangChain and OpenAI APIs, primarily for summarization and insight-generation tasks.",
+    a: "Yes — I've built RAG pipelines using LangChain and OpenAI APIs, primarily for summarization and insight-generation tasks.",
     tags: ["llm", "rag", "langchain", "openai"],
   },
   {
@@ -94,7 +130,7 @@ export const faq: QA[] = [
     tags: ["graduation", "timeline", "asu"],
   },
   {
-    q: "What&apos;s your GPA?",
+    q: "What's your GPA?",
     a: "Currently 3.83/4.0.",
     tags: ["gpa", "grades"],
   },
@@ -106,7 +142,7 @@ export const faq: QA[] = [
     tags: ["career", "roles", "goals"],
   },
   {
-    q: "What&apos;s your long-term vision?",
+    q: "What's your long-term vision?",
     a: "To bridge AI research and practical engineering — building scalable, explainable, and responsible AI systems that solve real-world problems.",
     tags: ["vision", "future", "goals"],
   },
@@ -117,7 +153,7 @@ export const faq: QA[] = [
   },
   {
     q: "Would you like to work at NVIDIA?",
-    a: "Who wouldn&apos;t? I admire their research and engineering culture — I&apos;ve already replicated Jetson/TensorRT-level optimization pipelines inspired by their work.",
+    a: "Who wouldn't? I admire their research and engineering culture — I've already replicated Jetson/TensorRT-level optimization pipelines inspired by their work.",
     tags: ["nvidia", "companies", "interest"],
   },
   {
@@ -132,7 +168,7 @@ export const faq: QA[] = [
     tags: ["research", "lab", "jiang lab"],
   },
   {
-    q: "What&apos;s your publication?",
+    q: "What's your publication?",
     a: "I co-authored a Springer chapter on AI in agriculture, exploring ML-based irrigation and crop prediction. DOI: https://doi.org/10.1007/978-981-99-4071-4_16",
     tags: ["publication", "paper", "springer"],
   },
@@ -159,7 +195,7 @@ export const faq: QA[] = [
   },
   {
     q: "Where are you based?",
-    a: "Tempe, Arizona — but I&apos;m open to remote and hybrid opportunities anywhere.",
+    a: "Tempe, Arizona — but I'm open to remote and hybrid opportunities anywhere.",
     tags: ["location", "city", "availability"],
   },
   {
@@ -174,7 +210,7 @@ export const faq: QA[] = [
   },
   {
     q: "Do you build personal projects?",
-    a: "All the time — it&apos;s how I learn. I build, break, and rebuild things until they work beautifully.",
+    a: "All the time — it's how I learn. I build, break, and rebuild things until they work beautifully.",
     tags: ["projects", "learning", "growth"],
   },
 ];

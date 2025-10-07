@@ -21,6 +21,47 @@ export const faq: QA[] = [
   a: "I have professional experience across both research and industry. Currently, I work as a Research Assistant at the Jiang Lab (Biodesign Center for Mechanisms of Evolution, ASU) and as an AI Specialist at the ASU Tech Hub. Previously, I was a full-time Data Analyst at ANZ Operations & Technology for nearly two years, where I specialized in automating reporting pipelines and driving data-based decisions.",
   tags: ["experience", "career", "work", "jobs", "industry", "research"],
 },
+{
+  q: "When do you graduate?",
+  a: "I’m expected to graduate in May 2026 with an M.S. in Robotics and Autonomous Systems – Artificial Intelligence track at Arizona State University.",
+  tags: ["graduation", "timeline", "asu", "education"],
+},
+
+{
+  q: "What kinds of roles are you interested in?",
+  a: "I’m seeking AI/ML Engineer, Computer Vision Engineer, Data Scientist/Engineer/Analyst or SDE roles — positions that involve building, optimizing, and deploying intelligent data-driven systems end-to-end.",
+  tags: ["roles", "career", "interests", "goals", "ai", "ml"],
+},
+
+{
+  q: "What are your pronouns?",
+  a: "She / Her / Hers.",
+  tags: ["pronouns", "identity"],
+},
+
+{
+  q: "What is your nationality?",
+  a: "I’m an Indian citizen currently studying in the United States.",
+  tags: ["nationality", "citizenship", "background"],
+},
+
+{
+  q: "Do you require sponsorship to work in the United States?",
+  a: "Yes — I’m on an F-1 student visa and will require future H-1B sponsorship after OPT authorization. I’m eligible for 12 months of OPT plus a 24-month STEM extension.",
+  tags: ["sponsorship", "visa", "work authorization"],
+},
+
+{
+  q: "What is your race or ethnicity?",
+  a: "I prefer not to specify race or ethnicity here — let’s focus on skills, projects, and impact 🙂",
+  tags: ["race", "ethnicity", "diversity"],
+},
+
+{
+  q: "Where are you currently based, and are you open to relocation?",
+  a: "I’m currently based in Tempe, Arizona. I’m open to relocation across the U.S. and globally — I value opportunities that challenge me and align with AI/ML, Computer Vision, and Data Engineering roles.",
+  tags: ["location", "relocation", "availability", "asu", "career", "city", "usa", "where"],
+},
 
 {
   q: "Where have you worked before?",

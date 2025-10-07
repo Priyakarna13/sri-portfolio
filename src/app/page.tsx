@@ -1,95 +1,64 @@
+"use client";
 import Image from "next/image";
-import styles from "./page.module.css";
+import Typewriter from "@/components/ux/Typewriter";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <section className="relative min-h-[78vh] flex items-center">
+      
+
+      <div className="hidden sm:block absolute right-4 top-4">
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
+          src="/hero-small.png"
+          alt="Sri"
+          width={128}
+          height={128}
+          className="rounded-2xl border border-border shadow-soft object-cover"
           priority
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      </div>
 
-        <div className={styles.ctas}>
+      <div className="mx-auto max-w-3xl w-full text-center space-y-6 px-4">
+        <h1 className="font-display leading-tight">
+          <Typewriter
+  text="Hi there!! Welcome to my space of the Internet."
+  speed={22}
+  startDelay={180}
+  className="text-4xl md:text-5xl text-black"
+/>
+
+        </h1>
+
+        <p className="opacity-90">
+          I’m Sri — MS in Robotics & Autonomous Systems (Artificial Intelligence)<br />
+          Arizona State University. Graduating <strong>May 2026</strong>.
+        </p>
+
+        <p className="opacity-85">
+          I work on <strong>AI/ML</strong>, <strong>Computer Vision</strong>, and <strong>Biotech (Genomics)</strong> —
+          and <strong>all things DATA</strong><br />I engineer datasets for analysis & insights, and
+          deploy models end-to-end for actual use cases. <br />Think <em>software for intelligent robotic systems</em>.
+        </p>
+
+        <div className="flex flex-wrap justify-center gap-2 pt-1">
+          <span className="chip">AI/ML</span>
+          <span className="chip">Computer Vision</span>
+          <span className="chip">Data Science</span>
+          <span className="chip">Data Analysis</span>
+          <span className="chip">Data Engineering</span>
+          <span className="chip">Genomics</span>
+          <span className="chip">Edge Deploy</span>
+        </div>
+
+        <div className="pt-2">
           <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/about"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-fg hover:opacity-90"
           >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
+            ☕ Have time? Read my journey
           </a>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+    </section>
   );
 }

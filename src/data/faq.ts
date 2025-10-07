@@ -3,28 +3,28 @@ export type QA = { q: string; a: string; tags?: string[] };
 export const faq: QA[] = [
   {
     q: "Who are you?",
-    a: "Hi, I’m Sri — MS student in Robotics and Autonomous Systems (AI) at Arizona State University. I build intelligent systems at the intersection of computer vision, deep learning, and data engineering.",
+    a: "Hi, I'm Sri — MS student in Robotics and Autonomous Systems (AI) at Arizona State University. I build intelligent systems at the intersection of computer vision, deep learning, and data engineering.",
     tags: ["about", "bio", "intro"],
   },
   {
     q: "Where are you studying?",
-    a: "I’m pursuing my Master’s in Robotics and Autonomous Systems — Artificial Intelligence track at Arizona State University (graduating May 2026).",
+    a: "I&apos;m pursuing my Master&apos;s in Robotics and Autonomous Systems — Artificial Intelligence track at Arizona State University (graduating May 2026).",
     tags: ["education", "university", "asu"],
   },
   {
     q: "What motivated you to study AI and robotics?",
-    a: "I’ve always been fascinated by how machines learn and perceive the world. My journey began with computer vision and deep learning, and evolved into building end-to-end systems that bridge software, data, and real-world robotics.",
+    a: "I&apos;ve always been fascinated by how machines learn and perceive the world. My journey began with computer vision and deep learning, and evolved into building end-to-end systems that bridge software, data, and real-world robotics.",
     tags: ["motivation", "ai", "robotics"],
   },
   {
-    q: "What’s your philosophy on learning?",
+    q: "What&apos;s your philosophy on learning?",
     a: "Keep learning, keep evolving. The tech world changes fast — I see curiosity and adaptability as superpowers.",
     tags: ["learning", "philosophy", "mindset"],
   },
 
   {
     q: "What are your top projects?",
-    a: "Some highlights: 1️⃣ Edge Segmentation (PyTorch → ONNX → TensorRT INT8 with 40% latency drop), 2️⃣ AutoInsights (LLM-powered SQL and data assistant), 3️⃣ Urban Housing Forecasting (real-time dashboards using Prophet + Grafana).",
+    a: "Some highlights: 1. Edge Segmentation (PyTorch → ONNX → TensorRT INT8 with 40% latency drop), 2. AutoInsights (LLM-powered SQL and data assistant), 3. Urban Housing Forecasting (real-time dashboards using Prophet + Grafana).",
     tags: ["projects", "work", "cv", "portfolio"],
   },
   {
@@ -39,38 +39,38 @@ export const faq: QA[] = [
   },
   {
     q: "Tell me about your Credit Risk Analysis project.",
-    a: "It’s a statistical ML pipeline in R using logistic regression, Random Forest, and XGBoost, with SMOTE handling, SHAP-based interpretability, and a dark-themed Shiny UI for predictions.",
+    a: "It&apos;s a statistical ML pipeline in R using logistic regression, Random Forest, and XGBoost, with SMOTE handling, SHAP-based interpretability, and a dark-themed Shiny UI for predictions.",
     tags: ["credit", "finance", "xgboost", "r", "ml"],
   },
   {
-    q: "What’s your Urban Housing Forecasting project?",
+    q: "What&apos;s your Urban Housing Forecasting project?",
     a: "A time-series forecasting system for housing demand using Prophet, Streamlit dashboards, PostgreSQL, and Grafana for real-time monitoring and visualization.",
     tags: ["forecasting", "prophet", "grafana", "streamlit"],
   },
   {
     q: "Have you worked on any research projects?",
-    a: "Yes — at Jiang Lab (Biodesign Center for Mechanisms of Evolution, ASU), I work on genomic data using deep learning models to predict mutation impact and protein sequence–function relationships.",
+    a: "Yes — at Jiang Lab (Biodesign Center for Mechanisms of Evolution, ASU), I work on genomic data using deep learning models to predict mutation impact and protein sequence-function relationships.",
     tags: ["research", "genomics", "deep learning", "biology"],
   },
   {
-    q: "What’s your most challenging project?",
+    q: "What&apos;s your most challenging project?",
     a: "The Jetson INT8 optimization pipeline — converting Mask2Former to ONNX, calibrating INT8 precision, and maintaining accuracy under edge hardware constraints. It taught me a lot about model optimization and deployment.",
     tags: ["onnx", "tensorrt", "optimization", "edge"],
   },
 
   {
-    q: "What’s your technical stack?",
+    q: "What&apos;s your technical stack?",
     a: "Core skills: Python, PyTorch, ONNX, TensorRT, OpenCV, FastAPI, LangChain, SQL, Docker, AWS, GCP, and Next.js (TypeScript).",
     tags: ["stack", "skills", "tech"],
   },
   {
     q: "Are you comfortable with cloud platforms?",
-    a: "Yes — I’ve deployed and optimized workloads on AWS, GCP, and Azure. I enjoy working with cloud-native ML pipelines and dashboards.",
+    a: "Yes — I&apos;ve deployed and optimized workloads on AWS, GCP, and Azure. I enjoy working with cloud-native ML pipelines and dashboards.",
     tags: ["cloud", "aws", "gcp", "azure"],
   },
   {
     q: "Do you do full-stack or just ML?",
-    a: "I’m an end-to-end engineer — from data pipelines to deployment. I design APIs, dashboards, and frontend UIs to make models actually usable.",
+    a: "I&apos;m an end-to-end engineer — from data pipelines to deployment. I design APIs, dashboards, and frontend UIs to make models actually usable.",
     tags: ["fullstack", "deployment", "integration"],
   },
   {
@@ -80,7 +80,7 @@ export const faq: QA[] = [
   },
   {
     q: "Do you work with large models (LLMs)?",
-    a: "Yes — I’ve built RAG pipelines using LangChain and OpenAI APIs, primarily for summarization and insight-generation tasks.",
+    a: "Yes — I&apos;ve built RAG pipelines using LangChain and OpenAI APIs, primarily for summarization and insight-generation tasks.",
     tags: ["llm", "rag", "langchain", "openai"],
   },
   {
@@ -94,7 +94,7 @@ export const faq: QA[] = [
     tags: ["graduation", "timeline", "asu"],
   },
   {
-    q: "What’s your GPA?",
+    q: "What&apos;s your GPA?",
     a: "Currently 3.83/4.0.",
     tags: ["gpa", "grades"],
   },
@@ -106,7 +106,7 @@ export const faq: QA[] = [
     tags: ["career", "roles", "goals"],
   },
   {
-    q: "What’s your long-term vision?",
+    q: "What&apos;s your long-term vision?",
     a: "To bridge AI research and practical engineering — building scalable, explainable, and responsible AI systems that solve real-world problems.",
     tags: ["vision", "future", "goals"],
   },
@@ -117,7 +117,7 @@ export const faq: QA[] = [
   },
   {
     q: "Would you like to work at NVIDIA?",
-    a: "Who wouldn’t? I admire their research and engineering culture — I’ve already replicated Jetson/TensorRT-level optimization pipelines inspired by their work.",
+    a: "Who wouldn&apos;t? I admire their research and engineering culture — I&apos;ve already replicated Jetson/TensorRT-level optimization pipelines inspired by their work.",
     tags: ["nvidia", "companies", "interest"],
   },
   {
@@ -132,7 +132,7 @@ export const faq: QA[] = [
     tags: ["research", "lab", "jiang lab"],
   },
   {
-    q: "What’s your publication?",
+    q: "What&apos;s your publication?",
     a: "I co-authored a Springer chapter on AI in agriculture, exploring ML-based irrigation and crop prediction. DOI: https://doi.org/10.1007/978-981-99-4071-4_16",
     tags: ["publication", "paper", "springer"],
   },
@@ -159,7 +159,7 @@ export const faq: QA[] = [
   },
   {
     q: "Where are you based?",
-    a: "Tempe, Arizona — but I’m open to remote and hybrid opportunities anywhere.",
+    a: "Tempe, Arizona — but I&apos;m open to remote and hybrid opportunities anywhere.",
     tags: ["location", "city", "availability"],
   },
   {
@@ -174,7 +174,7 @@ export const faq: QA[] = [
   },
   {
     q: "Do you build personal projects?",
-    a: "All the time — it’s how I learn. I build, break, and rebuild things until they work beautifully.",
+    a: "All the time — it&apos;s how I learn. I build, break, and rebuild things until they work beautifully.",
     tags: ["projects", "learning", "growth"],
   },
 ];

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { courses } from "@/data/courses";
+
 
 
 export const metadata: Metadata = { title: "About — Sri" };
@@ -14,22 +14,22 @@ export default function AboutPage() {
 
       <section className="card p-6 space-y-4 leading-relaxed">
         <p>
-          Hi, I'm Sri! If you’re here, you probably want to know more about me. I did my bachelors in AI, worked at ANZ with
+          Hi, I'm Sri! If you&apos;re here, you probably want to know more about me. I did my bachelors in AI, worked at ANZ with
           great colleagues, and had a settled life. But I wanted to grow beyond my comfort zone. So I quit and came to the US —
-          the place where big dreams meet real life. It’s been a ride: stress and uncertainty, yes, but also joy, friends who feel
+          the place where big dreams meet real life. It&apos;s been a ride: stress and uncertainty, yes, but also joy, friends who feel
           like family, and constant learning.
         </p>
         <p>
-          Now I’m doing robotics/software for perception (computer vision + ML). I’ve always had a soft spot for biology, so I
+          Now I&apos;m doing robotics/software for perception (computer vision + ML). I&apos;ve always had a soft spot for biology, so I
           joined a genomics research lab and built deep learning pipelines there. I enjoy building practical AI systems — not just
           models, but the full lifecycle: data, training, evaluation, optimization (INT8/edge), deployment, and monitoring.
         </p>
         <p>
-          I’m not a LeetCode monk — I’m a creative problem solver who communicates, ships, and owns outcomes. In a world of tools
-          and LLMs, I believe in clear thinking, accountability, and taste. I’m persistent, balanced, and I go above and beyond
+          I&apos;m not a LeetCode monk — I&apos;m a creative problem solver who communicates, ships, and owns outcomes. In a world of tools
+          and LLMs, I believe in clear thinking, accountability, and taste. I&apos;m persistent, balanced, and I go above and beyond
           to get things done — just as perfectly as required.
         </p>
-        <p>There’s more — let’s talk. We’re all just humans after all.</p>
+        <p>There&apos;s more — let&apos;s talk. We&apos;re all just humans after all.</p>
       </section>
 
      

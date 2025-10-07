@@ -82,6 +82,6 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json({
     reply:
-      "I couldn’t match that. Try asking about resume (/resume), contact (LinkedIn/GitHub), or projects (INT8/Jetson pipeline).",
+      "I couldn&apos;t match that. Try asking about resume (/resume), contact (LinkedIn/GitHub), or projects (INT8/Jetson pipeline).",
   });
 }

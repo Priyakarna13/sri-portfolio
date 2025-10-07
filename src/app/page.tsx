@@ -29,12 +29,12 @@ export default function Home() {
 
         </h1>
 
-        <p className="opacity-90">
-          I’m Sri — MS in Robotics & Autonomous Systems (Artificial Intelligence)<br />
+        <p className="text-2xl opacity-90">
+          I&apos;m Sri — MS in Robotics & Autonomous Systems (Artificial Intelligence)<br />
           Arizona State University. Graduating <strong>May 2026</strong>.
         </p>
 
-        <p className="opacity-85">
+        <p className="text-center text-gray-300 mt-2 text-lg whitespace-nowrap overflow-x-auto no-scrollbar">
           I work on <strong>AI/ML</strong>, <strong>Computer Vision</strong>, and <strong>Biotech (Genomics)</strong> —
           and <strong>all things DATA</strong><br />I engineer datasets for analysis & insights, and
           deploy models end-to-end for actual use cases. <br />Think <em>software for intelligent robotic systems</em>.
